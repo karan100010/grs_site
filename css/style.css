@@ -1,0 +1,60 @@
+/* change the color of h2 tags and center the tag */
+h2 {
+    color: #000000;
+    text-align: center;
+}   
+/* fix the height of the sections  */
+
+/* change the color of the body */
+body {
+    background-color: #a91695;
+}
+/* change heght of carsoul */
+
+
+/* display the photos inside the card element as a circle */
+.card img {
+    border-radius: 50%;
+
+}
+/* change the color of the nevbar */
+
+.navbar {
+    background-color: #a91695;
+}
+/* add media tags to sections of smaller screens */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 100vh;
+    }
+}
+/* add media tags to sections of smaller screens */
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 100vh;
+    }
+}
+/* add media tags to sections of smaller screens */
+@media (max-width: 400px) {
+    .carousel-item {
+        height: 100vh;
+    }
+}
+/* add media tags to sections of smaller screens */
+@media (max-width: 300px) {
+    .carousel-item {
+        height: 100vh;
+    }
+}
+/* add media tags to sections of smaller screens */
+@media (max-width: 200px) {
+    .carousel-item {
+        height: 100vh;
+    }
+}
+/* add media tags to sections of smaller screens */
+@media (max-width: 100px) {
+    .carousel-item {
+        height: 100vh;
+    }
+}
