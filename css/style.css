@@ -6,9 +6,7 @@ h2 {
 /* fix the height of the sections  */
 
 /* change the color of the body */
-body {
-    background-color: #a91695;
-}
+
 /* change heght of carsoul */
 
 
@@ -58,3 +56,9 @@ body {
         height: 100vh;
     }
 }
+/* add margines to both sides of the aboutus id */
+#aboutus {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* Change the style of the h2 tags */
