@@ -13,14 +13,18 @@
     <!-- import custom css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- import custom js -->
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="js/script.js"></script>
 
     <title>Gramrite solutions</title>
 </head>
-<body>
+<body >
+  <div id="particles-js"></div>
     <header>
        <!-- bootstrap nevbar -->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"><img src="images/logo.jpeg" alt="logo" style="width:50px;height:50px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,13 +49,23 @@
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="images/1.avif" alt="1" >
+                <img class="d-block w-100" src="images/1.JPG" alt="1" >
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/2.avif" alt="2" >
+                <img class="d-block w-100" src="images/2.JPG" alt="2" >
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/3.avif" alt="3" >
+                <img class="d-block w-100" src="images/3.jpg" alt="3" >
+                
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/4.JPG" alt="3" >
+                
+              </div><div class="carousel-item">
+                <img class="d-block w-100" src="images/5.jpg" alt="3" >
+                
+              </div><div class="carousel-item">
+                <img class="d-block w-100" src="images/6.jpg" alt="3" >
                 
               </div>
             </div>
@@ -81,19 +95,20 @@
  
         <div class="card-deck">
             <div class="card">
-              <img class="card-img-top" src="..." alt="Card image cap">
+              <img class="card-img-top" src="images/vinay.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Vinay Taragi <br>
+                  Co founder,CEO</h5>
+                <p class="card-text">Vinay is a rural enterprnure who in intrested in bulding networking solutions for reural india with more the 5 years of experince in rural enterprnure</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="..." alt="Card image cap">
+              <img class="card-img-top" src="images/karan.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Karan Joshi,Co founder,CTO</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
               </div>
               <div class="card-footer">
@@ -103,7 +118,7 @@
             <div class="card">
               <img class="card-img-top" src="..." alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Intern</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
               <div class="card-footer">
@@ -124,12 +139,19 @@
         <h3>Footer</h3>
         <!-- add address and copyright in the fotter -->
         <address>
-            <strong>MyCompany, Inc.</strong><br>
+            <strong>Gramrite solutions Private Ltd.</strong><br>
             Sunny Autumn Plaza, Grand Coulee,<br>
             CA, 91308-4075, US<br>
             <abbr title="Phone">P:</abbr> (123) 456-7890
         </address>
         <p>&copy; Gramrite solutions 2023</p>
     </footer>
-
+  
+</body>
 </html>
+<!-- <script>
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'js/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+</script> -->
